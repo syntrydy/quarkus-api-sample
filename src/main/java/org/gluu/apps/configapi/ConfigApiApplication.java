@@ -223,7 +223,7 @@ public class ConfigApiApplication {
 		log.info("================================...");
 		configurationFactory.create();
 		configurationFactory.initTimer();
-		
+
 	}
 
 	void onStop(@Observes ShutdownEvent ev) {
